@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    background-color: #dbcfc3;
+    background-color: #DCDCDC;
     height: 99vh;
 }
 
@@ -17,7 +17,8 @@ body {
 }
 
 .fixtureName {
-    background-image: radial-gradient(#aaaaff, #5555ff);
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(56,88,125,1) 0%, rgba(48,105,143,1) 38%, rgba(37,
     margin: 1%;
     border-radius: 1vw;
     font-weight: bold;
@@ -50,12 +51,14 @@ body {
 }
 
 .selected .fixtureName {
-    background-image: radial-gradient(#bbbbff, #775577);
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(56,88,125,1) 0%, rgba(48,109,143,0.1089067780569698) 0%, rgba(34,136,176,0.4712663286187676) 0%, rgba(37,129,169,0.5695809353603406) 1%, rgba(8,195,237,1) 62%, rgba(0,212,255,0.1594685758097788) 100%);
     cursor: auto;
 }
 
 .fixtureName:hover {
-    background-image: radial-gradient(#aaaaff, #5555aa);
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(56,88,125,1) 0%, rgba(48,109,143,0.1089067780569698) 0%, rgba(34,136,176,0.4712663286187676) 0%, rgba(37,129,169,0.5695809353603406) 1%, rgba(8,195,237,1) 62%, rgba(0,212,255,0.1594685758097788) 100%);
     cursor: pointer;
 }
 

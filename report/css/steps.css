@@ -62,6 +62,16 @@
   top: 8vw;
 }
 
+.duration{
+  color: black;
+}
+
+.userAgent{
+  color: grey;
+}
+
+
+
 #error-info {
   position: inherit;
   top: 6vh;

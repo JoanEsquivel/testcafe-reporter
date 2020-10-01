@@ -1,0 +1,32 @@
+
+#screenshot {
+    width: 20vw;
+    position: absolute;
+    left: 14.4vw;
+    bottom: 22vh;
+}
+
+#screenshot img {
+    width: inherit;
+    height: 20vh;
+    position: inherit;
+    border-radius: 5vw;
+}
+
+#screenshot img.increased:hover {
+    cursor: zoom-out;
+}
+
+#screenshot img:hover {
+    cursor: zoom-in;
+}
+
+#screenshot img.increased {
+    width: 80vw;
+    bottom: 1vh;
+    height: auto;
+    left: 10vw;
+    z-index: 1;
+    position: fixed;
+    border-radius: 0;
+}

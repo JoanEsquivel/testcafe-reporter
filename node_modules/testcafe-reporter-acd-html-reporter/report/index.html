@@ -1,0 +1,29 @@
+<!doctype html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="css/main.css"> 
+    <link rel="stylesheet" type="text/css" href="css/screen.css"> 
+    <link rel="stylesheet" type="text/css" href="css/steps.css"> 
+    <link rel="stylesheet" type="text/css" href="css/summary.css">
+    <script src="js/SummaryController.js" ></script>
+    <script src="js/TestsTreeController.js" ></script>
+    <script src="js/TestInfoController.js" ></script>
+    <script src="js/DocumentController.js" ></script>
+  </head>
+  <body>
+    <div class="summary">
+      <div id="time">
+        Start time: 
+        <input type="datetime-local" value="startTime" disabled="true">
+      </div>
+      <input id="search" type="text" placeholder="Search..." oninput="onSearch(this.value)">
+      <button id="searchFixture" enabled="false">F</button>
+      <div class="tag" onclick="filterByTag(this)">T</div>
+    </div>
+    <div class="tests-tree"></div>
+    <div class="test-info">
+      <div id="run-info"></div>
+      <div id="screenshot"></div>
+    </div>
+  </body>
+</html>

@@ -1,6 +1,6 @@
 {
-  "name": "testcafe-reporter-acd-html-reporter",
-  "version": "1.2.11",
+  "name": "testcafe-reporter-html-logger-custom",
+  "version": "1.0.2",
   "description": "HTML TestCafe reporter plugin",
   "repository": "https://github.com/oromis1508/testcafe-reporter",
   "author": {
@@ -15,10 +15,7 @@
     "report"
   ],
   "scripts": {
-    "test": "gulp test",
-    "publish-please": "publish-please",
-    "prepublish": "publish-please guard",
-    "publish": "publish"
+    "test": "gulp test"
   },
   "keywords": [
     "testcafe",
@@ -36,7 +33,7 @@
   },
   "dependencies": {
     "@babel/runtime": "^7.3.4",
-    "copy-dir": "^1.2.0",
-    "chalk": "^3.0.0"
+    "chalk": "^3.0.0",
+    "copy-dir": "^1.2.0"
   }
 }

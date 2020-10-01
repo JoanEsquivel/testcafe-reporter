@@ -1,6 +1,6 @@
 {
   "name": "testcafe-reporter-html-logger-custom",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "HTML TestCafe reporter plugin",
   "repository": "https://github.com/oromis1508/testcafe-reporter",
   "author": {
